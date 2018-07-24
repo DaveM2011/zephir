@@ -61,6 +61,14 @@ setx path "%path%;c:\path-to-zephir\bin"
 - `CD` to your extension and `zephir build`
 - Take the built `.dll` from `your_ext/Release/php_extname.dll` (or `your_ext/Release_TS/php_extname.dll`)
 
+## Building with a powershell
+- PHP7.2.8 default customize to your needs
+- Clone the zephir module as you dont have zephir installed or use `zephir init 'yournamepsace'` if you do
+- Create a file and place it in your module folder with the following [Gist](https://gist.github.com/DaveM2011/a18a741ea3d91e89a96bbc58e8d048d3#file-win32-build-ps1) name it what you like mybuild.ps1
+- Ensure that .ps1 is handled by notepad as the default editor
+- Right click your 'mybuild.ps1' file and click run with powershell
+- If you would like to create a zephir module use the following [Gist](https://gist.github.com/DaveM2011/a18a741ea3d91e89a96bbc58e8d048d3#file-init-zephir-module-ps1)
+
 ## Additional Links
 
 * Building PHP 5.5 - 7.1 under Windows: https://wiki.php.net/internals/windows/stepbystepbuild
